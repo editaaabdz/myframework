@@ -1,0 +1,19 @@
+{
+    "name": "edita/myframework",
+    "description": "Créer mon premier framework en PHP POO MVC",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Edita",
+            "email": "edita.bojadzi@le-campus-numerique.fr"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Core\\": "core",
+            "App\\": "src"
+        }
+    }
+}
